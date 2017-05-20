@@ -1,0 +1,71 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+/*Header*/
+header {
+	height: 10%;
+	background-color: pink;
+	margin: 0;
+	padding: 5px;
+}
+
+header a {
+	display: inline-block;
+	text-decoration: none;
+	float: right;
+	margin: 15px;
+}
+
+header div {
+	padding-right: 50px;
+}
+
+header p {
+	padding-left: 50px;
+}
+
+/*Section de inscripcion*/
+.inscribirse {
+	background-image: url("../img/home.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contenido-insc {
+	width: 60%;
+	margin: 0 auto;
+	padding: 220px 0;
+}
+
+.inscribirse h1 {
+	margin: 0;
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 40px;
+}
+
+/*Section de hackathon*/
+.amarillo {
+	background-color: #ffff00;
+	display: inline-block;
+	width: 100%;
+}
+
+.imagen img{
+	width: 40%;
+	float: left;
+	padding: 2%;
+}
+
+.letras {
+	float: right;
+	width: 40%;
+	padding: 5% 10% 2% 1%;
+}
