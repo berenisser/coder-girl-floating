@@ -39,16 +39,32 @@ header p {
 }
 
 .contenido-insc {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	padding: 220px 0;
 }
 
-.inscribirse h1 {
+.inscribirse-chicas {
 	margin: 0;
 	text-transform: uppercase;
 	color: whitesmoke;
 	font-size: 40px;
+}
+
+.inscribirse-listas {
+	display: none;
+	margin: 0;
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 40px;
+}
+
+.display-none {
+	display: none;
+}
+
+.display-yes {
+	display: inherit;
 }
 
 /*Section de hackathon*/
@@ -56,19 +72,29 @@ header p {
 	background-color: #ffff00;
 	display: inline-block;
 	width: 100%;
+	padding: 60px 0;
 	border-top: 40px solid white;
 }
 
-.imagen img{
+.foto-float{
 	width: 35%;
 	float: left;
-	padding: 2%;
+	padding: 2% 5% 2% 70px;
+}
+
+.float-right {
+	float: right;
 }
 
 .letras {
 	float: right;
 	width: 40%;
 	padding: 5% 10% 2% 1%;
+}
+
+.letras h3 {
+	text-transform: uppercase;
+	text-align: center;
 }
 
 /*Seccion contacto*/
@@ -88,23 +114,50 @@ header p {
 	display: block;
 	width: 100%;
 	margin: 5px 0;
+	border-radius: 5px;
+	padding: 10px;
+	outline: none;
 }
 
 .contact img {
 	width: 55%;
 	float: left;
-	padding: 2%;
+	padding: 60px 20px;
 	margin: 0 auto;
+}
+
+.formulario h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.contenido-insc button, .letras button, .formulario button {
+	background-color: #1919ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 /*Footer*/
 footer {
 	height: 40px;
-	background-color: lightblue;
+	background-color: #1919ff;
 	margin: 0;
-	padding: 5px;
+	padding: 10px;
 }
 
-footer p, footer span {
+footer p {
 	display: inline-block;
+	color: white;
 }
+
+footer a {
+	color: yellow;
+	text-decoration: none;
+	isplay: inline-block;
+}
+

@@ -9,10 +9,10 @@
 <body>
 	<header>
 		<div>
-			<a href="#inicio">Inicio</a>
-			<a href="#documental">Documental</a>
-			<a href="#hackathon">Hackathon</a>
 			<a href="#contacto">Contacto</a>
+			<a href="#hackathon">Hackathon</a>
+			<a href="#documental">Documental</a>
+			<a href="#inicio">Inicio</a>
 		</div>
 		<p>Code Girls</p>
 	</header>
@@ -20,20 +20,22 @@
 	<!-- Inscribirse Section -->
 	<section class="inscribirse" >
 		<div class="contenido-insc" >
-			<h1>chicas que cambian el mundo</h1>
+			<h1 id="chicas" class="inscribirse-chicas">chicas que cambian el mundo</h1>
+			<h1 id="cambio" class="inscribirse-listas">ahora tu puedes cambiar el mundo</h1>
 			<h3>¡Pasticipa en nuestras actividades!</h3>
-			<button>Inscríbete</button>
+			<button id="btn-inscribete" class="btn-inscribete">Inscríbete</button>
 		</div>
 	</section>
 
 <!-- Section Hackathon -->
 	<section class="amarillo">
 		<div class="imagen">
-			<img src="assets/img/hackathon.jpg" alt="">
+			<img id="foto-float" class="foto-float" src="assets/img/hackathon.jpg" alt="">
 		</div>
 		<div class="letras">
 			<h3>hackathon</h3>
-			<p>¡Participa en nuestra hackathon "Love is Respect"! <br> Idea soluciones a las problematicas que te presentaremos, rodeadas de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10am.</p>
+			<p>¡Participa en nuestra hackathon "Love is Respect"! <br><br> Idea soluciones a las problematicas que te presentaremos, rodeadas de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10am.</p>
+			<button id="btn-hackathon" class="btn-hackathon">Hackathon</button>
 		</div>
 	</section>
 
@@ -42,12 +44,13 @@
 			<img src="assets/img/made_with_code.jpg" alt="">
 			<form class="formulario">
 				<h2>contacto</h2>
-				<p>Code Girls</p>
-				<input class="entrada" type="text" placeholder="Nombre">
-				<input class="entrada" type="email" placeholder="Email">
-				<input class="entrada" type="text" placeholder="Asunto">
-				<textarea class="entrada" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-				<button>Enviar</button>
+				<p><b>Code Girls</b></p>
+				<p>795 Folsom Ave, suite 600 <br>San Francisco, CA 94107 <br>Fono: (123) 456-7890</p>
+				<input id="value-nombre" class="entrada" type="text" placeholder="Nombre">
+				<input id="value-email" class="entrada" type="email" placeholder="Email">
+				<input id="value-asunto" class="entrada" type="text" placeholder="Asunto">
+				<textarea class="entrada" name="" id="value-texto" cols="30" rows="10" placeholder="Mensaje"></textarea>
+				<button id="btn-enviar" class="btn-enviar">Enviar</button>
 			</form>
 	</section>
 
